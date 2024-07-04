@@ -8,7 +8,7 @@
     height: 70px;
     width: 70px;
     border: 1px solid;
-    background-image: url(../asset/Pas\ Foto.jpg);
+    background-image: url(../assets/Pas\ Foto.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -44,15 +44,15 @@ nav>a {
 }
 
 .profile-1 {
-    background-image: url(../asset/1.webp)
+    background-image: url(../assets/1.webp);
 }
 
 .profile-2 {
-    background-image: url(../asset/2.webp)
+    background-image: url(../assets/2.webp);
 }
 
 .profile-3 {
-    background-image: url(../asset/3.png)
+    background-image: url(../assets/3.png);
 }
 
 .divider {

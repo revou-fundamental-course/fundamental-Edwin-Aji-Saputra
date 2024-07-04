@@ -11,21 +11,24 @@
     <header class="navigation-container">
         <div class="logo-icon"></div>
         <nav>
-            <a>Home</a>
+            <a href="#home">Home</a>
             <a href="#our-profile">Our Profile</a>
-            <a>Portofolio</a>
-            <a>Massage Us</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#massage-us">Massage Us</a>
         </nav>
     </header>
     <hr />
     <main>
-        <section>
+        <section id="home">
             <header>
                 <h1>HI USER, WELCOME TO MY WEBSITE</h1>
             </header>
             <article>
                 <p>Ini adalah website mini project saya</p>
-                <div class="banner-container"></div>
+                <div class="banner-container">
+                    <div class="banner-item" style="background-image: url(assets/4.jpg)"></div>
+                   
+                </div>
             </article>
         </section>
         <hr />
@@ -46,10 +49,36 @@
                     <div class="profile-icon profile-3"></div>
                     <p>Profile 3</p>
                 </div>
-
+                
                 <div class="divider"></div>
             </article>
         </section>
+        <section id="massage-us">
+            <header>
+                <h1>Hubungi Kami</h1>
+            </header>
+            <article style="display: flex; justify-content: space-between;">
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="firstname">Firstname :</label></td>
+                        <td><input type="text" id="firstname" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastname">Lastname :</label></td>
+                        <td><input type="text" id="lastname" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div id="result" style="border: 1px solid; height: 100px; width: 100px;"></div>
+            </article>
+        </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
